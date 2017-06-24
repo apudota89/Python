@@ -92,6 +92,10 @@ if the number is odd, print "buzz"
 
 for p in range(0,11):
     print(p)
+    
+ a = [3,2,6,4,7]
+for n in range(0, len(a)-1):
+    print( str(a[n])+" + "+str(a[n+1]))
 
 
 
